@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
 public class BD {
-     public  static Connection getConnection()  {
+     public static Connection getConnection()  {
         Connection cn = null;
         String conector = "com.mysql.jdbc.Driver";     
              
